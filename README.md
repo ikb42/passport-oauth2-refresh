@@ -51,6 +51,11 @@ refresh.requestNewAccessToken('facebook', 'some_refresh_token', function(err, ac
 
 ```
 
+## Works with
+
+- OAuth2
+- OpenID Connect - see [Passport OpenID Connect](https://github.com/jaredhanson/passport-openidconnect) 
+
 ## Examples
 
 - See [issue #1](https://github.com/fiznool/passport-oauth2-refresh/issues/1) for an example of how to refresh a token when requesting data from the Google APIs.
